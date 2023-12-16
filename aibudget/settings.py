@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-x7=fudso&3yu^4h6&^pgp5-oi^vdf&brdni$%7y-w0e%ke9ad*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['aibudget.vercel.app', '127.0.0.1']
 
 
 # Application definition
