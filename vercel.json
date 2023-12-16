@@ -1,0 +1,14 @@
+{
+    "builds": [
+      {
+        "src": "aibudget/wsgi.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "aibudget/wsgi.py"
+      }
+    ]
+}
