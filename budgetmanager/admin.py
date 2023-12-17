@@ -1,3 +1,5 @@
+from django.apps import apps
 from django.contrib import admin
 
-# Register your models here.
+# Register all models
+[admin.site.register(model) for model in apps.get_app_config('budgetmanager').get_models()]
