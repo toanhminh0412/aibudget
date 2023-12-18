@@ -1,4 +1,5 @@
 {
+    "buildCommand" : "chmod u+x deploy.sh && ./deploy.sh",
     "builds": [
       {
         "src": "aibudget/wsgi.py",
