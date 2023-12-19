@@ -16,3 +16,8 @@ class LoginView(TemplateView):
         context = super().get_context_data(**kwargs)
         context["title"] = "Login"
         return context
+    
+    # Handle POST request for logging in
+    # def post(self, request, *args, **kwargs):
+    #     context = self.get_context_data(**kwargs)
+        
